@@ -18,9 +18,10 @@ getUsers(var apiURL) async{
   {
     User user = User(u["name"],u["email"],u["username"]);
     print(user.name);
+    print(user.email);
   }
 
-  // print(users[0].);
+
 }
 
 class User{
